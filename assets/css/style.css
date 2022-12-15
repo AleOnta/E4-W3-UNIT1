@@ -67,6 +67,11 @@ div > button {
   height: 80%;
 }
 
+#taskContainer > p {
+  color: lightcyan;
+  font-size: 0.8em;
+}
+
 .justOneTask {
   width: 87%;
   margin: 0.4em auto;
