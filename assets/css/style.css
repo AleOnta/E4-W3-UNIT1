@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/bg-webPage.png);
+  font-family: "Chivo Mono", monospace;
+}
+
+#mainContainer {
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  width: 30%;
+  background-color: aliceblue;
+  font-size: 1.6em;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 300px;
+  text-align: center;
+  border: 2px solid;
+  border-color: black;
+}
+
+#taskGenerator {
+  width: 45%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+div > input {
+  width: 65%;
+  height: 3em;
+  border-radius: 0.6em;
+  border: 2px solid;
+  border-color: tan;
+  font-family: "Chivo Mono", monospace;
+  font-size: 1em;
+}
+
+div > button {
+  width: 20%;
+  height: 3em;
+  font-family: "Chivo Mono", monospace;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 0.6em;
+  border: 2px solid;
+  border-color: tan;
+  background-color: tan;
+  padding: 0;
+}
+
+#taskContainer {
+  width: 45%;
+  margin: auto;
+  margin-top: 3em;
+  padding: 0.8em 0;
+  text-align: center;
+  border-radius: 1.5em;
+  background-color: rgba(124, 124, 124, 0.37);
+  height: 500px;
+}
+
+.justOneTask {
+  width: 87%;
+  margin: 0.4em auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: tan;
+  cursor: pointer;
+}
+
+.justOneTask > p {
+  display: inline-block;
+}
+
+.justOneTask i {
+  padding: 3px;
+  background-color: aliceblue;
+  border-radius: 0.4em;
+}
+
+i:hover {
+  padding: 5px;
+}
+
+.clicked p {
+  text-decoration: line-through;
+}
