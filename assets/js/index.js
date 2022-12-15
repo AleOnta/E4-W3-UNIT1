@@ -4,8 +4,8 @@ const checkTheTask = (event) => {
 };
 
 const deleteTheTask = (event) => {
-  console.log(event.target);
-  const toDelete = event.target;
+  const toDelete = event.path[1];
+  toDelete.remove();
 };
 
 const addTaskOnClick = (event) => {

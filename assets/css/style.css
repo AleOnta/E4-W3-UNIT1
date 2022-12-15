@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  width: 30%;
+  width: 39%;
   background-color: aliceblue;
   font-size: 1.6em;
   font-weight: bold;
@@ -64,7 +64,7 @@ div > button {
   text-align: center;
   border-radius: 1.5em;
   background-color: rgba(124, 124, 124, 0.37);
-  height: auto;
+  height: 80%;
 }
 
 .justOneTask {
@@ -77,6 +77,7 @@ div > button {
 }
 
 .justOneTask > p {
+  color: black;
   text-align: left;
   width: 90%;
   display: inline-block;
@@ -89,9 +90,26 @@ div > button {
 }
 
 i:hover {
-  padding: 10px;
+  padding: 0.7em;
 }
 
 .clicked {
   text-decoration: line-through;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.2em;
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  padding-top: 0.8em;
+}
+
+address {
+  font-size: 0.7em;
+  padding: 1em;
 }
