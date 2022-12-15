@@ -14,18 +14,14 @@
   </head>
   <body>
     <div id="mainContainer">
-      <h1>This is the ultimate toDo list</h1>
+      <h1>Welcome to your toDo list</h1>
       <div id="taskGenerator">
-        <input type="text" placeholder="Write here the task you would like to add" />
-        <button>to list</button>
-      </div>
-      <div id="taskContainer">
-        <div class="justOneTask">
-          <p>This is the task you inserted</p>
-          <i class="fas fa-trash-alt"></i>
+        <input id="inputText" type="text" placeholder="Write here the task you would like to add"/>
+        <button onclick="addTaskOnClick(event)">to list</button>
         </div>
-        </div>
+        <div id="taskContainer"></div>
       </div>
     </div>
   </body>
+  <script src="./assets/js/index.js"></script>
 </html>

@@ -64,7 +64,7 @@ div > button {
   text-align: center;
   border-radius: 1.5em;
   background-color: rgba(124, 124, 124, 0.37);
-  height: 500px;
+  height: auto;
 }
 
 .justOneTask {
@@ -77,19 +77,21 @@ div > button {
 }
 
 .justOneTask > p {
+  text-align: left;
+  width: 90%;
   display: inline-block;
 }
 
 .justOneTask i {
-  padding: 3px;
+  padding: 5px;
   background-color: aliceblue;
   border-radius: 0.4em;
 }
 
 i:hover {
-  padding: 5px;
+  padding: 10px;
 }
 
-.clicked p {
+.clicked {
   text-decoration: line-through;
 }
